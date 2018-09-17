@@ -115,6 +115,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="01. FunctionPointers.cpp" />
+    <ClCompile Include="02. VoidPointer.cpp" />
+    <ClCompile Include="03. PitfallUncheckedCStyleCasting.cpp" />
+    <ClCompile Include="04. CastingPointers.cpp" />
+    <ClCompile Include="05. AutomaticStorage.cpp" />
+    <ClCompile Include="06. OperatorNew.cpp" />
+    <ClCompile Include="07. ReleasingUnusedMemory.cpp" />
+    <ClCompile Include="08. PitfallDeletingMemoryMoreThanOnce.cpp" />
+    <ClCompile Include="09. PitfallDeletingPointerContainerBeforePointersInside.cpp" />
+    <ClCompile Include="10. UniquePtr.cpp" />
+    <ClCompile Include="11. SharedPtr.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
