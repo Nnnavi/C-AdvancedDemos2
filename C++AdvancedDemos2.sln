@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project1", "Project1\Project1.vcxproj", "{28E351F0-4EA4-4D25-9AF3-D511E3FC64BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B5B4EC4D-666E-48CD-99C9-694BE576D20A}"
+	ProjectSection(SolutionItems) = preProject
+		Project1\01. FunctionPointers.cpp = Project1\01. FunctionPointers.cpp
+		Project1\02. VoidPointer.cpp = Project1\02. VoidPointer.cpp
+		Project1\03. PitfallUncheckedCStyleCasting.cpp = Project1\03. PitfallUncheckedCStyleCasting.cpp
+		Project1\04. CastingPointers.cpp = Project1\04. CastingPointers.cpp
+		Project1\05. AutomaticStorage.cpp = Project1\05. AutomaticStorage.cpp
+		Project1\06. OperatorNew.cpp = Project1\06. OperatorNew.cpp
+		Project1\07. ReleasingUnusedMemory.cpp = Project1\07. ReleasingUnusedMemory.cpp
+		Project1\08. PitfallDeletingMemoryMoreThanOnce.cpp = Project1\08. PitfallDeletingMemoryMoreThanOnce.cpp
+		Project1\09. PitfallDeletingPointerContainerBeforePointersInside.cpp = Project1\09. PitfallDeletingPointerContainerBeforePointersInside.cpp
+		Project1\10. UniquePtr.cpp = Project1\10. UniquePtr.cpp
+		Project1\11. SharedPtr.cpp = Project1\11. SharedPtr.cpp
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28E351F0-4EA4-4D25-9AF3-D511E3FC64BE}.Debug|x64.ActiveCfg = Debug|x64
+		{28E351F0-4EA4-4D25-9AF3-D511E3FC64BE}.Debug|x64.Build.0 = Debug|x64
+		{28E351F0-4EA4-4D25-9AF3-D511E3FC64BE}.Debug|x86.ActiveCfg = Debug|Win32
+		{28E351F0-4EA4-4D25-9AF3-D511E3FC64BE}.Debug|x86.Build.0 = Debug|Win32
+		{28E351F0-4EA4-4D25-9AF3-D511E3FC64BE}.Release|x64.ActiveCfg = Release|x64
+		{28E351F0-4EA4-4D25-9AF3-D511E3FC64BE}.Release|x64.Build.0 = Release|x64
+		{28E351F0-4EA4-4D25-9AF3-D511E3FC64BE}.Release|x86.ActiveCfg = Release|Win32
+		{28E351F0-4EA4-4D25-9AF3-D511E3FC64BE}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9BFD18DE-89F1-4E51-9CA9-2B66B5E99F68}
+	EndGlobalSection
+EndGlobal
